@@ -1,4 +1,5 @@
 # **OSI 7 Layer**
+<img width="1239" alt="OSI모델과 TCP:IP모델" src="https://user-images.githubusercontent.com/107941880/220670182-f2a66bc7-3901-480b-a92d-4507a69d0ab0.png">
 
 - 네트워크 통신 시 송신자와 수신자가 지켜야 할 각 단계의 규칙을 뜻합니다.
 - 각 계층은 바로 위와 아래에 있는 계층과 상호 작용합니다.
