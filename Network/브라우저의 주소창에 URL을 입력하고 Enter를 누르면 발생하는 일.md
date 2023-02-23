@@ -1,4 +1,6 @@
 # 브라우저의 주소창에 [https://www.example.com](https://www.google.com) URL을 입력하고 엔터를 누르면 발생하는 일
+<img width="1511" alt="url 입력하고 일어나는 일" src="https://user-images.githubusercontent.com/107941880/220913194-eecb5a94-ae25-40bb-a589-ef799c8179c6.png">
+
 
 ## 1. 브라우저의 주소창에 URL을 입력하고 Enter 키를 입력합니다.
 
@@ -39,6 +41,7 @@
 ## 3. 요청한 URL이 캐시에 없는 경우, ISP의 DNS 서버가 DNS 쿼리로 해당 URL을 호스팅하는 서버의 IP 주소를 찾습니다.
 
 ### 3.1 DNS 쿼리(query)
+<img width="944" alt="DNS 쿼리" src="https://user-images.githubusercontent.com/107941880/220913337-c50f4991-b863-435f-9f05-3195c0dfe55d.png">
 
 
 - 앞서 언급했듯이 내 컴퓨터가 `www.example.com` 을 호스팅하는 서버에 연결하려면 `www.example.com의` IP 주소가 필요합니다.
@@ -58,6 +61,7 @@
     - DNS 기록에서 `www.example.com`와 일치하는 IP 주소를 찾아서 DNS 리졸버에게 반환하고, 리졸버는 이를 다시 브라우저로 전송합니다.
 
 ## 4. 브라우저와 서버가 TCP 연결을 시작합니다.
+<img width="896" alt="handshake" src="https://user-images.githubusercontent.com/107941880/220913392-3fef03c9-762f-4282-ac52-ab4ce5922932.png">
 
 ### 4.1 TCP `3-way handshake`
 
@@ -71,7 +75,7 @@
 
 그러면 데이터 전송을 위한 TCP 연결이 설정됩니다.
 
-👉 [TCP의 통신 과정]()
+👉 [TCP의 통신 과정](https://github.com/HASEUNGHEEE/cs-study-note/blob/main/Network/TCP%2C%20IP%20%EB%AA%A8%EB%8D%B8.md)
 
 ### 4.2 HTTPS `TLS handshake`
 
@@ -162,10 +166,10 @@ TLS(Transport Layer Security)는 웹 브라우저와 서버 간의 통신을 암
 
 ### Reference
 
-- [**웹 브라우저에 URL을 입력하면 어떤 일이 생기나요?**]([https://aws.amazon.com/ko/blogs/korea/what-happens-when-you-type-a-url-into-your-browser/](https://aws.amazon.com/ko/blogs/korea/what-happens-when-you-type-a-url-into-your-browser/))
-- [****What happens when you type a URL in the browser and press enter?****]([https://medium.com/@maneesa/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a](https://medium.com/@maneesa/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a))
-- [DNS 서버 유형]([https://www.cloudflare.com/ko-kr/learning/dns/dns-server-types/](https://www.cloudflare.com/ko-kr/learning/dns/dns-server-types/))
-- [TLS 핸드셰이크란 무엇일까요?]([https://www.cloudflare.com/ko-kr/learning/ssl/what-happens-in-a-tls-handshake/](https://www.cloudflare.com/ko-kr/learning/ssl/what-happens-in-a-tls-handshake/))
-- [HTTPS 통신 과정 쉽게 이해하기]([https://aws-hyoh.tistory.com/39](https://aws-hyoh.tistory.com/39))
-- [이미지 출처]([https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob))
-- [****네트워크 스터디 2주차 - DNS****]([https://velog.io/@pu1etproof/네트워크-스터디-2주차-DNS](https://velog.io/@pu1etproof/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%84%B0%EB%94%94-2%EC%A3%BC%EC%B0%A8-DNS))
+- [웹 브라우저에 URL을 입력하면 어떤 일이 생기나요?](https://aws.amazon.com/ko/blogs/korea/what-happens-when-you-type-a-url-into-your-browser/)
+- [What happens when you type a URL in the browser and press enter?](https://medium.com/@maneesa/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a)
+- [DNS 서버 유형](https://www.cloudflare.com/ko-kr/learning/dns/dns-server-types/)
+- [TLS 핸드셰이크란 무엇일까요?](https://www.cloudflare.com/ko-kr/learning/ssl/what-happens-in-a-tls-handshake/)
+- [HTTPS 통신 과정 쉽게 이해하기](https://aws-hyoh.tistory.com/39)
+- [이미지 출처](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
+- [네트워크 스터디 2주차 - DNS](https://velog.io/@pu1etproof/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%84%B0%EB%94%94-2%EC%A3%BC%EC%B0%A8-DNS)
