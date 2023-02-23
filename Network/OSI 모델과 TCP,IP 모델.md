@@ -18,9 +18,9 @@
 <img width="1239" alt="OSI모델과 TCP:IP모델" src="https://user-images.githubusercontent.com/107941880/220607860-bab86c58-7edd-49f7-b970-0ec24d06d0e6.png">
 
 - **`OSI 모델`**(Open Systems Interconnection Reference Model)은 국제표준화기구(ISO)에서 개발한 모델로, 컴퓨터 네트워크 프로토콜 디자인과 통신을 7개의 계층으로 분류한 모델입니다. 일반적으로 OSI 7 계층이라고 합니다.
-  - 👉 OSI 모델
+  - 👉 [OSI 모델](https://github.com/HASEUNGHEEE/cs-study-note/blob/main/Network/OSI%207%20Layer.md)
 - 현재는 네트워크상 데이터 전송 과정을 5개의 계층으로 단순화한 **`TCP/IP 모델`** 이 일반적으로 사용됩니다. 다양한 네트워크 기술이 TCP/IP를 중심으로 통합되어 사실상 인터넷 표준이 되었습니다.
-  - 👉 TCP/IP 모델
+  - 👉 [TCP/IP 모델](https://github.com/HASEUNGHEEE/cs-study-note/blob/main/Network/TCP,%20IP%20%EB%AA%A8%EB%8D%B8.md)
 <details>
 <summary>💡 TCP/IP 4계층? 5계층?</summary>
 <div markdown="1">
