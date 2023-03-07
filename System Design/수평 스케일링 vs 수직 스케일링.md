@@ -1,6 +1,7 @@
 ## 수평 스케일링 vs 수직 스케일링
 
 ### 단일 서버 설계(Single-Server Design)
+<img width="510" alt="단일서버설계" src="https://user-images.githubusercontent.com/107941880/223420159-ed52a1b9-8e84-4d0d-a62e-809c3cf16f5f.png">
 
 - 상황
     - 세계 곳곳에 시스템에 접속하려는 고객이 있고, 시스템과 인터넷으로 연결되어 있다(전 세계 어딘가로 라우팅되고 있다)
@@ -17,6 +18,7 @@
     - 복원의 관점에서는 좋은 것이 없다.
 
 ### 수직적 확장(Vertical Scaling)
+<img width="510" alt="수직적확장" src="https://user-images.githubusercontent.com/107941880/223420243-2305ac8d-413d-4656-803a-0d91a44c29a4.png">
 
 - 상황
     - 기존 1개의 서버에서 처리 가능한 트래픽보다 더 많은 트래픽을 원한다고 가정
@@ -30,6 +32,7 @@
 - 문제 : 여전히 단일 장애점이 있다.
 
 ### 수평적 확장(Horizontal Scaling)
+<img width="510" alt="수평적확장" src="https://user-images.githubusercontent.com/107941880/223420203-62f6a1d9-0c0e-4937-8ce9-d44870be2a33.png">
 
 - 수평적 확장
     - 단일 서버 대신 여러 서버를 가진다.
